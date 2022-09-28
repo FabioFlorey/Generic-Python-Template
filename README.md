@@ -10,20 +10,15 @@
              $$ |  $$ |$$$$$$$$\ $$ |  $$ |$$$$$$$  |$$ | \_/ $$ |$$$$$$$$\
              \__|  \__|\________|\__|  \__|\_______/ \__|     \__|\________|
 =========================================================================================
-
  Author: Fabio Craig Wimmer Florey                                        version: 0.0.1
 =========================================================================================
                                         ~ NOTICE ~
-
        Project, Copyright © 2022, Fabio Craig Wimmer Florey - All Rights Reserved.
-
            Unless required by applicable law or agreed to in writing, software      
             distributed under the License is distributed on an "AS IS" BASIS,       
          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.   
-
              See the License for the specific language governing permissions        
                             and limitations under the License.
-
  License: MIT-0                                       Terms and Conditions: ./LICENSE.md
 =========================================================================================
 You can also use the [GitHub Flavored Markdown][MARKDOWN] syntax or HTML. 
@@ -55,9 +50,9 @@ Short description of the project
   * [Resources and External Links](#resources-and-external-links)
   * [References](#references)
 
-  
+
 ## About
-This is the introduction to the repository.
+This is the introduction to the repository. It is a good place to introduce the project and its goals.
 
 - What problem is this project solving?
 - What is the value of the project? Is anything similar to this project?
@@ -108,9 +103,9 @@ Explain how you will use the project with examples, code snippets and screenshot
 - [ ] **Feature 1**
 
   Why is this feature useful? What does it do? How does it work?
-  
+
   As always, provide details, examples and screenshots\GIFs.
-  
+
 <p align="right"><a href="#readme-header">⮨</a></p>
 
 ## Security
@@ -122,11 +117,9 @@ Please see our [Security Policy][SECURITY] for reporting vulnerabilities.
 This project is licensed under the **MIT** license. See [LICENSE][LICENSE] for more information.
 ```json
               Project, Copyright © 2022, Fabio Craig Wimmer Florey - All Rights Reserved.
-
                  Unless required by applicable law or agreed to in writing, software
                   distributed under the License is distributed on an "AS IS" BASIS,
                WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-
                    See the License for the specific language governing permissions
                                   and limitations under the License.
 ```
@@ -135,9 +128,10 @@ This project is licensed under the **MIT** license. See [LICENSE][LICENSE] for m
 ## Miscellaneous
 ### Additional Documentation
 ### Resources and External Links
-- [UiPath Documentation Portal](https://docs.uipath.com/)
 ### References
 
+Documentation, external links, resources and references.
+- Document Example [^1]
 
 <p align="right"><a href="#readme-header">⮨</a></p>
 
@@ -155,3 +149,7 @@ This project is licensed under the **MIT** license. See [LICENSE][LICENSE] for m
 [SECURITY]: /docs/SECURITY.md
 [TAAG]: https://patorjk.com/software/taag/
 [TAAG OTHER]: http://www.patorjk.com/software/taag/#p=display&f=Big%20Money-ne&t=OTHER
+[TAAG PYTHON]: https://patorjk.com/software/taag/#p=display&f=Cybermedium&t=PROJECT
+
+<!--- REFERENCES --->
+[^1]: https://example.org |  “quote” | `code` | [book](https://example.org)
