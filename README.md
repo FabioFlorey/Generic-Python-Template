@@ -57,7 +57,7 @@ Short description of the project
 
   
 ## About
-This is the introduction to the repository. It is a good place to introduce the project and its goals.
+This is the introduction to the repository.
 
 - What problem is this project solving?
 - What is the value of the project? Is anything similar to this project?
@@ -135,10 +135,9 @@ This project is licensed under the **MIT** license. See [LICENSE][LICENSE] for m
 ## Miscellaneous
 ### Additional Documentation
 ### Resources and External Links
+- [UiPath Documentation Portal](https://docs.uipath.com/)
 ### References
 
-Documentation, external links, resources and references.
-- Document Example [^1]
 
 <p align="right"><a href="#readme-header">⮨</a></p>
 
@@ -156,7 +155,3 @@ Documentation, external links, resources and references.
 [SECURITY]: /docs/SECURITY.md
 [TAAG]: https://patorjk.com/software/taag/
 [TAAG OTHER]: http://www.patorjk.com/software/taag/#p=display&f=Big%20Money-ne&t=OTHER
-[TAAG PYTHON]: https://patorjk.com/software/taag/#p=display&f=Cybermedium&t=PROJECT
-
-<!--- REFERENCES --->
-[^1]: https://example.org |  “quote” | `code` | [book](https://example.org)
