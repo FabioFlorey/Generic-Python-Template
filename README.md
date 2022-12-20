@@ -26,12 +26,16 @@ You can also use the [GitHub Flavored Markdown][MARKDOWN] syntax or HTML.
 You can also create the titles of your project with [TAAG][TAAG]:
 - [Font][TAAG PYTHON] for Python files
 - [Font][TAAG OTHER] for other files
--->                 
+-->
 
-<!-- Project Logo -->
+<div align="center">
+  <!-- <img alt="logo" src=""></img> -->
+  <h1>Python Project</h1>
+  <h3>Short description of the project</h3>
+  <!-- <img alt="hero" src=""></img> -->
+</div>
 
-# Python Project
-Short description of the project
+---
 
 ## Table of Contents
 + [About](#about)
