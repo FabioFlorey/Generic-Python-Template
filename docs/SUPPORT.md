@@ -47,4 +47,4 @@ If you have any questions that are not answered in the documentation or FAQ, or 
 
 We will do our best to respond to your inquiries in a timely manner. Thank you for using our project!
 
-[DOCUMENTS]: ./docs/
+[DOCUMENTS]: ../docs/
