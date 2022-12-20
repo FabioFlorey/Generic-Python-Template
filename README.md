@@ -29,13 +29,15 @@ You can also create the titles of your project with [TAAG][TAAG]:
 -->
 
 <div align="center">
-  <!-- <img alt="logo" src=""></img> -->
+  <!-- <img alt="logo" src="./docs/img/logo.png"></img> -->
   <h1>Python Project</h1>
   <h4>Short description of the project</h4>
-  <!-- <img alt="hero" src=""></img> -->
 </div>
 
 ---
+<!--
+<img alt="hero" src="./docs/img/hero.png"></img>
+-->
 
 ## Table of Contents
 + [About](#about)
