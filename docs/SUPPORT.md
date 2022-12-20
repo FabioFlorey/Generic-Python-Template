@@ -35,7 +35,7 @@ We have compiled a list of frequently asked questions (FAQ) that may help answer
 
 ## Issue Tracker
 
-If you have found a bug or have a feature request, please open an issue in our issue tracker. You can find the issue tracker at [here][ISSUE].
+If you have found a bug or have a feature request, please open an issue in our issue tracker. You can find the issue tracker [here][ISSUE TRACKER].
 
 ## Contact Us
 
@@ -50,4 +50,4 @@ We will do our best to respond to your inquiries in a timely manner. Thank you f
 <!--------------- Hyperlinks ---------------->
 [DOCUMENTS]: ../docs/
 [FAQ]: ../docs/FAQ.md
-[ISSUE]: ../../../issues
+[ISSUE TRACKER]: ../../../issues
