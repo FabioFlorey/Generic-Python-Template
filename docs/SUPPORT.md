@@ -22,3 +22,29 @@
 =========================================================================================
 -->
 # Support
+
+Thank you for using our project! We are here to help if you have any questions or run into any issues. Here are some ways you can get support:
+
+## Documentation
+
+Our documentation is a great resource for learning how to use the project and troubleshoot common issues. You can find the documentation at [DOCUMENTS][DOCUMENTS].
+
+## FAQ
+
+We have compiled a list of frequently asked questions (FAQ) that may help answer your questions. You can find the FAQ at [Insert link to FAQ here].
+
+## Issue Tracker
+
+If you have found a bug or have a feature request, please open an issue in our issue tracker. You can find the issue tracker at [Insert link to issue tracker here].
+
+## Contact Us
+
+If you have any questions that are not answered in the documentation or FAQ, or if you need further assistance, you can contact us through the following methods:
+
+- Email: [Insert email address here]
+- Twitter: [Insert Twitter handle here]
+- Facebook: [Insert Facebook page here]
+
+We will do our best to respond to your inquiries in a timely manner. Thank you for using our project!
+
+[DOCUMENTS]: ./docs/
