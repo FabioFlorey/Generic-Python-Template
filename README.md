@@ -10,9 +10,10 @@
              $$ |  $$ |$$$$$$$$\ $$ |  $$ |$$$$$$$  |$$ | \_/ $$ |$$$$$$$$\
              \__|  \__|\________|\__|  \__|\_______/ \__|     \__|\________|
 =========================================================================================
+                                        README
  Author: Fabio Craig Wimmer Florey                                        version: 0.0.1
 =========================================================================================
-                                        ~ NOTICE ~
+                                     ~ NOTICE ~
        Project, Copyright © 2022, Fabio Craig Wimmer Florey - All Rights Reserved.
            Unless required by applicable law or agreed to in writing, software      
             distributed under the License is distributed on an "AS IS" BASIS,       
