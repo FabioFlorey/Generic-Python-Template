@@ -33,16 +33,16 @@ This project welcomes contributions on Github, when contributing, please follow 
 
 ## License
 This project is licensed under the **MIT** license. See [LICENSE][LICENSE] for further details.
-```json
-                              Project, Copyright © 2022, Fabio Craig Wimmer Florey - All Rights Reserved.
 
-                                 Unless required by applicable law or agreed to in writing, software
-                                  distributed under the License is distributed on an "AS IS" BASIS,
-                               WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-
-                                   See the License for the specific language governing permissions
-                                                  and limitations under the License.
-```
+<div align="center"><pre align="center" lang="json">
+Project, Copyright © 2022, Fabio Craig Wimmer Florey - All Rights Reserved.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions
+and limitations under the License.
+</pre></div>
+<p align="right"><a href="#readme-header">⮨</a></p>
 
 
 [CODE_OF_CONDUCT]: ./CODE_OF_CONDUCT.md
