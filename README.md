@@ -136,7 +136,7 @@ Documentation, external links, resources and references.
 
 <p align="right"><a href="#readme-header">⮨</a></p>
 
-<!--- LINK --->
+<!--------------- Hyperlinks ---------------->
 [FORK]: ../../fork
 [CONTRIBUTING]: /docs/CONTRIBUTING.md
 [DISCUSSION]: ../../discussion
