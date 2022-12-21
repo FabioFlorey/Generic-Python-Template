@@ -23,7 +23,7 @@ download_url     = 'https://github.com/FabioFlorey/'
 content_type = 'text/markdown'
 
 author           = 'Fabio Craig Wimmer Florey'
-author_email     = 'fabioflorey@icloud.com'
+author_email     = '<email@domain.com>'
 maintainer       = ''
 maintainer_email = ''
 
