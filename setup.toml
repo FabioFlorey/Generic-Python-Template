@@ -24,8 +24,8 @@ content_type = 'text/markdown'
 
 author           = 'Fabio Craig Wimmer Florey'
 author_email     = '<email@domain.com>'
-maintainer       = ''
-maintainer_email = ''
+maintainer       = 'Fabio Craig Wimmer Florey'
+maintainer_email = '<email@domain.com>'
 
 keywords         = [
                     ''
