@@ -41,7 +41,7 @@ docs/**                  linguist-documentation
 *.md                     text diff=markdown
 *.md                     linguist-detectable
 
-# TOML Files
+# Serialization Files
 # ---------------------------------------------------------------------------------------
 *.toml                   text
 
