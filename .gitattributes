@@ -24,7 +24,7 @@
 # =======================================================================================
 *               text=auto
 
-# Git dotfiles
+# Git DotFiles
 # ---------------------------------------------------------------------------------------
 *.gitattributes text
 *.gitattributes linguist-language=gitattributes
@@ -40,6 +40,10 @@
 *.md            text diff=markdown
 *.md            linguist-detectable
 
-# TOML files
+# TOML Files
 # ---------------------------------------------------------------------------------------
 *.toml     text
+
+# Python Source Files
+# ---------------------------------------------------------------------------------------
+*.py     text diff=python
