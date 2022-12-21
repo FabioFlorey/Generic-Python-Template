@@ -22,3 +22,7 @@
 #            Text file with a syntax matching the requirements of git-config. 
 #  Author: Fabio Craig Wimmer Florey                                      Version: 0.0.1
 # =======================================================================================
+
+# [submodule "NAME"]
+#	    path = NAME
+#	    url  = URL
