@@ -40,7 +40,7 @@ We will send a response acknowledging receipt of your report within 48 hours, an
 Thank you for helping us keep our software and users safe!
 
 
-<!--------------- Hyperlinks ---------------->
+<!------------------------------------  Hyperlinks ----------------------------------------->
 [DOCUMENTS]: ../docs/
 [FAQ]: ../docs/FAQ.md
 [ISSUE TRACKER]: ../../../issues

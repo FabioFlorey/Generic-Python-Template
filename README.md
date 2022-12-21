@@ -143,7 +143,7 @@ Documentation, external links, resources and references.
 
 <p align="right"><a href="#readme-header">⮨</a></p>
 
-<!--------------- Hyperlinks ---------------->
+<!------------------------------------  Hyperlinks ----------------------------------------->
 [FORK]: ../../fork
 [CONTRIBUTING]: /docs/CONTRIBUTING.md
 [DISCUSSION]: ../../discussion
@@ -159,5 +159,5 @@ Documentation, external links, resources and references.
 [TAAG OTHER]: http://www.patorjk.com/software/taag/#p=display&f=Big%20Money-ne&t=OTHER
 [TAAG PYTHON]: https://patorjk.com/software/taag/#p=display&f=Cybermedium&t=PROJECT
 
-<!--- REFERENCES --->
+<!------------------------------------  References --------------------------------------->
 [^1]: https://example.org |  “quote” | `code` | [book](https://example.org)

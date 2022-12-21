@@ -41,13 +41,12 @@ If you have found a bug or have a feature request, please open an issue in our i
 
 If you have any questions that are not answered in the documentation or FAQ, or if you need further assistance, you can contact us through the following methods:
 
-- Email: [Insert email address here]
-- Twitter: [Insert Twitter handle here]
-- Facebook: [Insert Facebook page here]
+- Email: fabioflorey@icloud.com
+- Twitter: @fabioflorey
 
 We will do our best to respond to your inquiries in a timely manner. Thank you for using our project!
 
-<!--------------- Hyperlinks ---------------->
+<!------------------------------------  Hyperlinks ----------------------------------------->
 [DOCUMENTS]: ../docs/
 [FAQ]: ../docs/FAQ.md
 [ISSUE TRACKER]: ../../../issues

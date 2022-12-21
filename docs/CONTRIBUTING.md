@@ -42,8 +42,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions
 and limitations under the License.
 </pre></div>
-<p align="right"><a href="#readme-header">⮨</a></p>
 
-<!--------------- Hyperlinks ---------------->
+<!------------------------------------  Hyperlinks ----------------------------------------->
 [CODE_OF_CONDUCT]: ./CODE_OF_CONDUCT.md
 [LICENSE]: ../LICENSE.md
