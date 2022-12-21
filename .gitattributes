@@ -29,9 +29,11 @@
 *.gitattributes text
 *.gitattributes linguist-language=gitattributes
 .gitattributes  export-ignore
-
 .gitignore      text
 .gitignore      export-ignore
+.gitmodule      text
+.gitmodule      export-ignore
+
 
 # Markdown
 # ---------------------------------------------------------------------------------------
