@@ -22,28 +22,28 @@
 #                               Give attributes to pathnames.                      
 #  Author: Fabio Craig Wimmer Florey                                      Version: 0.0.1
 # =======================================================================================
-*               text=auto
+*                        text=auto
 
 # Git DotFiles
 # ---------------------------------------------------------------------------------------
-*.gitattributes text
-*.gitattributes linguist-language=gitattributes
-.gitattributes  export-ignore
-.gitignore      text
-.gitignore      export-ignore
-.gitmodule      text
-.gitmodule      export-ignore
+*.gitattributes          text
+*.gitattributes          linguist-language=gitattributes
+.gitattributes           export-ignore
+.gitignore               text
+.gitignore               export-ignore
+.gitmodule               text
+.gitmodule               export-ignore
 
 
 # Markdown
 # ---------------------------------------------------------------------------------------
-*.md            text diff=markdown
-*.md            linguist-detectable
+*.md                     text diff=markdown
+*.md                     linguist-detectable
 
 # TOML Files
 # ---------------------------------------------------------------------------------------
-*.toml     text
+*.toml                   text
 
 # Python Source Files
 # ---------------------------------------------------------------------------------------
-*.py     text diff=python
+*.py                     text diff=python
