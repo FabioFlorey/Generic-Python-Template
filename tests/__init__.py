@@ -5,7 +5,7 @@
                            ___ ____ ____ ___ ____ 
                             |  |___ [__   |  [__  
                             |  |___ ___]  |  ___]                       
-            Automated functional tests for the project's build. 
+                   Automated tests for the project's build. 
 =============================================================================
 Author: Fabio Craig Wimmer Florey                             Version: 0.0.1
 =============================================================================
