@@ -25,7 +25,7 @@ name: CI
 on: [push]
 
 jobs:
-  unit test and code coverage:
+  tests:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
