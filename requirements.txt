@@ -1,2 +1,3 @@
+covdefaults
 pytest
 tox
