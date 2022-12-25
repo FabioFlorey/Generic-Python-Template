@@ -38,9 +38,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        covdefaults
         pytest
-        tox
     - name: Test with Tox
       run: tox
     - name: Upload coverage report
