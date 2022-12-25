@@ -50,7 +50,7 @@ jobs:
         token: ${{ secrets.CODE_COVERAGE }}
     - name: Build package
       run: |
-        python -m install wheel
+        python -m pip install wheel
         python -m setup.py sdist bdist_wheel
     - name: Upload artifact
       uses: actions/upload-artifact@v2
