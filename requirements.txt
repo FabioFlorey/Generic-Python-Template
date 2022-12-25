@@ -1,3 +1,0 @@
-covdefaults
-pytest
-tox
