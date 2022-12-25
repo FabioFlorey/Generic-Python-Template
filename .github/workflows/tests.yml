@@ -45,5 +45,5 @@ jobs:
       if: success()
       uses: codecov/codecov-action@v3
       with:
-        file: coverage.xml
+        file: /home/runner/work/Standard-Python-Repository/Standard-Python-Repository/coverage.xml
         token: ${{ secrets.CODE_COVERAGE }}
