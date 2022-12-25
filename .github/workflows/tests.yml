@@ -25,9 +25,10 @@ name: Unit Tests and Code Coverage
 on: [push]
 
 jobs:
-  test:
+  build:
+    env:
+      PYTEST_ADDOPTS: "--cov --cov-report=xml"
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python
@@ -45,5 +46,5 @@ jobs:
       if: success()
       uses: codecov/codecov-action@v2
       with:
-        file: /home/runner/coverage.xml
+        file: coverage.xml
         token: ${{ secrets.CODE_COVERAGE }}
