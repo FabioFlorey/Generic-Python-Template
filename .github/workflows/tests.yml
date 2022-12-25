@@ -27,7 +27,7 @@ on: [push]
 jobs:
   build:
     env:
-      PYTEST_ADDOPTS: "--cov --cov-report=xml"
+      PYTEST_ADDOPTS: "--cov=tests/ --cov-report=xml --cov-fail-under=100"
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -44,7 +44,7 @@ jobs:
       run: tox
     - name: Upload coverage report
       if: success()
-      uses: codecov/codecov-action@v2
+      uses: codecov/codecov-action@v3
       with:
         file: coverage.xml
         token: ${{ secrets.CODE_COVERAGE }}
