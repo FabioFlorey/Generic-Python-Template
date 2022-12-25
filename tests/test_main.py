@@ -23,4 +23,6 @@ Author: Fabio Craig Wimmer Florey                             Version: 0.0.1
  License: MIT-0                          Terms and Conditions: ./LICENSE.md
 =============================================================================
 '''
-from __future__ import annotations
+
+def test_function():
+    assert True
