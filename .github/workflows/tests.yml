@@ -46,5 +46,5 @@ jobs:
       if: success()
       uses: codecov/codecov-action@v3
       with:
-        file: tests/coverage.xml
+        file: ./tests/coverage.xml
         token: ${{ secrets.CODE_COVERAGE }}
