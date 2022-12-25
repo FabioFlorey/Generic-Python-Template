@@ -38,7 +38,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        python -m covdefaults
         python -m pytest    
     - name: Test with Tox
       run: tox
