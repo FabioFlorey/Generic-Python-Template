@@ -20,14 +20,12 @@
 #  Author: Fabio Craig Wimmer Florey                                      Version: 0.0.1
 # =======================================================================================
 
-name: Unit Tests and Code Coverage
+name: CI
 
 on: [push]
 
 jobs:
-  build:
-    env:
-      PYTEST_ADDOPTS: "--cov=tests/ --cov-report=xml --cov-fail-under=100"
+  unit test and code coverage:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
