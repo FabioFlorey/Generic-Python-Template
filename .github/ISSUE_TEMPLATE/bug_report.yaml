@@ -2,11 +2,6 @@ name: Bug Report
 description: 🪲 Let's fight those pesky bugs 🪲
 body:
   - type: input
-    id: Title
-    attributes:
-      label: Title
-      placeholder: Title
-  - type: input
     id: Version
     attributes:
       label: Version
@@ -37,17 +32,32 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Environment
+    id: Expected Results
     attributes:
-      label: Environment
-      description: Write some infos about the Environment
+      label: Expected Results
+      description: Describe the expected results
       placeholder: |
-        |   |   |   |   |
-        |---|---|---|---|
-        |   |   |   |   |
-        |   |   |   |   |
-        |   |   |   |   |
-        |   |   |   |   | 
+        1 + 1 = 2  
+      render: markdown
+    validations:
+      required: false
+  - type: textarea
+    id: Actual Results
+    attributes:
+      label: Actual Results
+      description: Describe the actual results
+      placeholder: |
+        1 + 1 = 4  
       render: markdown
     validations:
       required: true
+  - type: textarea
+    id: Comments
+    attributes:
+      label: Comments
+      description: Provide additional commentary
+      placeholder: |
+        I think this bug report is awesome!   
+      render: markdown
+    validations:
+      required: false
