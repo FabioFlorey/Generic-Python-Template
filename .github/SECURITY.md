@@ -20,11 +20,11 @@ We take the security of our software seriously, and we are committed to addressi
 
 We currently support the latest patch version of the following versions of our software:
 
-- [list of supported versions]
+- 0.0.1
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in our software, we encourage you to notify us as soon as possible. To report a vulnerability, please open a new issue on our [issue tracker][ISSUE TRACKER] with the label "security" and a description of the issue and any relevant information, such as the version of the software you are using and the steps to reproduce the issue.
+If you discover a security vulnerability in our software, we encourage you to notify us as soon as possible. To report a vulnerability, please write an e-mail to [Fabio Florey][EMAIL] and provide a description of the issue and any relevant information, such as the version of the software you are using and the steps to reproduce the issue.
 
 We will send a response acknowledging receipt of your report within 48 hours, and will provide updates on the progress of the investigation and resolution of the issue as we have them.
 
@@ -35,3 +35,4 @@ Thank you for helping us keep our software and users safe!
 [DOCUMENTS]: ../docs/
 [FAQ]: ../docs/FAQ.md
 [ISSUE TRACKER]: ../../../issues
+[EMAIL]: mailto:fabioflorey@icloud.com?subject=New%20Security%20Issue%20(Project)&body=Hey%20👋,%0D%0I%20found%20an%20issue%20:%20
