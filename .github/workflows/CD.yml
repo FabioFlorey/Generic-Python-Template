@@ -16,44 +16,35 @@
 #           $$ |  $$ |\$$$$$$  |  $$ |   $$$$$$\  $$$$$$  |$$ | \$$ |\$$$$$$  |
 #           \__|  \__| \______/   \__|   \______| \______/ \__|  \__| \______/ 
 # =======================================================================================
-#             Define GitHub Actions to run automated tests on the codebase.
+#               Create a project artifact if the CI action is succesful
 #  Author: Fabio Craig Wimmer Florey                                      Version: 0.0.1
 # =======================================================================================
 
-name: Continuous Integration
+name: Continuous Delivery
 
-on:
-  push:
-    branches:
-      ['main']
+   workflow_run:
+     workflows: ["Continuous Integration"]
+     types: [completed] #requested
 
-jobs:
-  tests:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.9' 
-    - name: Upgrade pip and install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        python -m pip install -r tests/test-requirements.txt
-    - name: Test with tox
-      run: tox
-    - name: Upload report on CodeCoverage
-      if: success()
-      uses: codecov/codecov-action@v3
-      with:
-        file: ./tests/coverage.xml
-        token: ${{ secrets.CODE_COVERAGE }}
-    - name: Build package
-      run: |
-        python -m pip install wheel
-        python -m setup sdist bdist_wheel
-    - name: Upload artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: built-package
-        path: dist/*
+ jobs:
+    Successful_CI:
+     runs-on: ubuntu-latest
+     if: ${{ github.event.workflow_run.conclusion == 'success' }}
+     steps:
+      - name: Build package
+        run: |
+          python -m pip install wheel
+          python -m setup sdist bdist_wheel
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: built-package
+          path: dist/*
+
+    Failed_CI:
+      runs-on: ubuntu-latest
+      if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+      steps:
+        - run: echo "Continous Integration failed"
+
+
