@@ -1,0 +1,47 @@
+name: Report a bug
+description: something went wrong
+body:
+  - type: markdown
+    attributes:
+      value: |
+          
+  - type: input
+    id: search
+    attributes:
+      label: search you tried in the issue tracker
+      placeholder: ...
+    validations:
+      required: true
+  - type: textarea
+    id: freeform
+    attributes:
+      label: describe your issue
+      placeholder: 'I was doing ... I ran ... I expected ... I got ...'
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: pre-commit --version
+      placeholder: pre-commit x.x.x
+    validations:
+      required: true
+  - type: textarea
+    id: configuration
+    attributes:
+      label: .pre-commit-config.yaml
+      description: (auto-rendered as yaml, no need for backticks)
+      placeholder: 'repos: ...'
+      render: yaml
+    validations:
+      required: true
+  - type: textarea
+    id: stacktrace
+    attributes:
+      label: Error StackTrace 
+      description: <sub> The stacktrace will autoredender as code, no need for backticks </sub>
+      placeholder: |
+        `Publish your error stacktrace here`
+      render: bash
+    validations:
+      required: false
