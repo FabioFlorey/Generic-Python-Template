@@ -66,12 +66,12 @@ body:
     validations:
       required: false
   - type: textarea
-    id: Comments
+    id: Environment
     attributes:
-      label: Comments
-      description: Provide additional commentary
+      label: Informations about the Environment
+      description: Provide informations about the environment
       placeholder: |
-        I think this bug report is awesome!   
+        ...
       render: markdown
     validations:
       required: false
@@ -87,12 +87,23 @@ body:
       render: python
     validations:
       required: false
+  - type: textarea
+    id: Comments
+    attributes:
+      label: Additional Comments
+      description: Provide additional commentary
+      placeholder: |
+        I think this bug report is awesome!   
+      render: markdown
+    validations:
+      required: false
   - type: checkboxes
-    id: terms
+    id: Terms
     attributes:
       label: Code of Conduct
       description: |
         By submitting this issue, you agree to follow our [Code of Conduct](../blob/main/docs/community/CODE_OF_CONDUCT.md)
+        **If you are reporting a security issue, don't report through the procedure explained in the [SECURITY](../blob/main/.github/SECURITY.md) file, thank you!**
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
