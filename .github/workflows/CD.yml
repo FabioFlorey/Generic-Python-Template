@@ -30,6 +30,15 @@ on:
 jobs:
   Successful_CI:
     runs-on: ubuntu-latest
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9' 
+    - name: Upgrade pip and install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install -r requirements.txt
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
     - name: Build package
@@ -41,11 +50,3 @@ jobs:
       with:
         name: built-package
         path: dist/*
-
-  Failed_CI:
-    runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
-    steps:
-      - run: echo "Continous Integration failed"
-
-
