@@ -25,7 +25,7 @@
 *                        text=auto
 docs/**                  linguist-documentation
 
-# Git DotFiles
+# DotFiles
 # ---------------------------------------------------------------------------------------
 *.gitattributes          text
 *.gitattributes          linguist-language=gitattributes
@@ -34,7 +34,8 @@ docs/**                  linguist-documentation
 .gitignore               export-ignore
 .gitmodule               text
 .gitmodule               export-ignore
-
+.mailmap                 text
+.mailmap                 export-ignore
 
 # Markdown
 # ---------------------------------------------------------------------------------------
@@ -43,7 +44,11 @@ docs/**                  linguist-documentation
 
 # Serialization Files
 # ---------------------------------------------------------------------------------------
+*.cfg                    text
+*.ini                    text
+*.in                     text
 *.toml                   text
+*.yml                    text
 
 # Python Source Files
 # ---------------------------------------------------------------------------------------
