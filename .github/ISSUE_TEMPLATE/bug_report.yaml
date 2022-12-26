@@ -34,7 +34,7 @@ body:
   - type: textarea
     id: Expected Results
     attributes:
-      label: Expected Results
+      label: Expected_Results
       description: Describe the expected results
       placeholder: |
         1 + 1 = 2  
@@ -42,7 +42,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: Actual Results
+    id: Actual_Results
     attributes:
       label: Actual Results
       description: Describe the actual results
