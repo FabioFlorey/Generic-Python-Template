@@ -12,7 +12,7 @@ Author: Fabio Craig Wimmer Florey                             Version: 0.0.1
                                   ~ NOTICE ~
  
  Project, Copyright © 2022, Fabio Craig Wimmer Florey - All Rights Reserved.
-
+ 
      Unless required by applicable law or agreed to in writing, software      
       distributed under the License is distributed on an "AS IS" BASIS,       
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.   
@@ -26,4 +26,4 @@ Author: Fabio Craig Wimmer Florey                             Version: 0.0.1
 from __future__ import annotations
 
 if __name__ == '__main__':
-  pass
+  print(__doc__)

@@ -45,4 +45,4 @@ and limitations under the License.
 
 <!------------------------------------  Hyperlinks ----------------------------------------->
 [CODE_OF_CONDUCT]: ./CODE_OF_CONDUCT.md
-[LICENSE]: ../LICENSE.md
+[LICENSE]: ../../LICENSE.md

@@ -10,22 +10,18 @@
              $$ |  $$ |$$$$$$$$\ $$ |  $$ |$$$$$$$  |$$ | \_/ $$ |$$$$$$$$\
              \__|  \__|\________|\__|  \__|\_______/ \__|     \__|\________|
 =========================================================================================
-                                        README
+                                         README
  Author: Fabio Craig Wimmer Florey                                        version: 0.0.1
 =========================================================================================
-                                     ~ NOTICE ~
-       Project, Copyright © 2022, Fabio Craig Wimmer Florey - All Rights Reserved.
-           Unless required by applicable law or agreed to in writing, software      
-            distributed under the License is distributed on an "AS IS" BASIS,       
-         WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.   
-             See the License for the specific language governing permissions        
+                                       ~ NOTICE ~
+        Project, Copyright © 2022, Fabio Craig Wimmer Florey - All Rights Reserved.
+            Unless required by applicable law or agreed to in writing, software      
+             distributed under the License is distributed on an "AS IS" BASIS,       
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.   
+              See the License for the specific language governing permissions        
                             and limitations under the License.
  License: MIT-0                                       Terms and Conditions: ./LICENSE.md
 =========================================================================================
-You can also use the [GitHub Flavored Markdown][MARKDOWN] syntax or HTML. 
-You can also create the titles of your project with [TAAG][TAAG]:
-- [Font][TAAG PYTHON] for Python files
-- [Font][TAAG OTHER] for other files
 -->
 
 <div align="center">
@@ -145,16 +141,15 @@ Documentation, external links, resources and references.
 
 <!------------------------------------  Hyperlinks ----------------------------------------->
 [FORK]: ../../fork
-[CONTRIBUTING]: /docs/CONTRIBUTING.md
+[CONTRIBUTING]: /docs/community/CONTRIBUTING.md
 [DISCUSSION]: ../../discussion
-[GLOSSARY]: docs/GLOSSARY.md
+[GLOSSARY]: docs/community/GLOSSARY.md
 [ISSUE]: ../../issues/new
 [ISSUE TRACKER]: ../../issues
 [LICENSE]: /LICENSE.md
-[MARKDOWN]: https://github.github.com/gfm/
 [PULL]: ../../compare
 [REQUIREMENTS]: /requirements.txt
-[SECURITY]: /docs/SECURITY.md
+[SECURITY]: /.github/SECURITY.md
 [TAAG]: https://patorjk.com/software/taag/
 [TAAG OTHER]: http://www.patorjk.com/software/taag/#p=display&f=Big%20Money-ne&t=OTHER
 [TAAG PYTHON]: https://patorjk.com/software/taag/#p=display&f=Cybermedium&t=PROJECT

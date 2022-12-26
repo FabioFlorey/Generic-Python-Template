@@ -48,5 +48,5 @@ We will do our best to respond to your inquiries in a timely manner. Thank you f
 
 <!------------------------------------  Hyperlinks ----------------------------------------->
 [DOCUMENTS]: ../docs/
-[FAQ]: ../docs/FAQ.md
-[ISSUE TRACKER]: ../../../issues
+[FAQ]: FAQ.md
+[ISSUE TRACKER]: ../../../../issues
