@@ -1,3 +1,14 @@
+# =============================================================================
+# Project
+# =============================================================================
+# Bug Report
+# -----------------------------------------------------------------------------
+# Issue Template for GitHub
+#
+# :Authors: Fabio Craig Wimmer Florey <fabioflorey@icloud.com>
+# :Version: 0.0.1
+# :License: MIT-0
+
 name: Bug Report
 description: 🪲 Let's fight those pesky bugs 🪲
 labels: bug
