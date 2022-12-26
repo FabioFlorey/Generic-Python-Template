@@ -1,26 +1,17 @@
 <!--
-=========================================================================================
-          /$$$$$$  /$$   /$$ /$$$$$$$  /$$$$$$$   /$$$$$$  /$$$$$$$  /$$$$$$$$
-         /$$__  $$| $$  | $$| $$__  $$| $$__  $$ /$$__  $$| $$__  $$|__  $$__/
-        | $$  \__/| $$  | $$| $$  \ $$| $$  \ $$| $$  \ $$| $$  \ $$   | $$   
-        |  $$$$$$ | $$  | $$| $$$$$$$/| $$$$$$$/| $$  | $$| $$$$$$$/   | $$   
-         \____  $$| $$  | $$| $$____/ | $$____/ | $$  | $$| $$__  $$   | $$   
-         /$$  \ $$| $$  | $$| $$      | $$      | $$  | $$| $$  \ $$   | $$   
-        |  $$$$$$/|  $$$$$$/| $$      | $$      |  $$$$$$/| $$  | $$   | $$   
-         \______/  \______/ |__/      |__/       \______/ |__/  |__/   |__/   
-=========================================================================================
- Author: Fabio Craig Wimmer Florey                                        version: 0.0.1
-=========================================================================================
-                                        ~ NOTICE ~
-       Project, Copyright © 2022, Fabio Craig Wimmer Florey - All Rights Reserved.
-           Unless required by applicable law or agreed to in writing, software      
-            distributed under the License is distributed on an "AS IS" BASIS,       
-         WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.   
-             See the License for the specific language governing permissions        
-                            and limitations under the License.
- License: MIT-0                                       Terms and Conditions: ./LICENSE.md
-=========================================================================================
+=============================================================================
+Project
+=============================================================================
+SUPPORT
+-----------------------------------------------------------------------------
+Information on how to get support for the project.
+
+:Authors: Fabio Craig Wimmer Florey <fabioflorey@icloud.com>
+:Version: 0.0.1
+:License: MIT-0
 -->
+
+
 # Support
 
 Thank you for using our project! We are here to help if you have any questions or run into any issues. Here are some ways you can get support:
