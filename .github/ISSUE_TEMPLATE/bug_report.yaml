@@ -61,3 +61,15 @@ body:
       render: markdown
     validations:
       required: false
+  - type: textarea
+    id: StackTrace
+    attributes:
+      label: Error Traceback
+      description: Provide the Traceback (if possible)
+      placeholder: |
+        Traceback (most recent call last):
+        ...
+        Error: ...
+      render: python
+    validations:
+      required: false
