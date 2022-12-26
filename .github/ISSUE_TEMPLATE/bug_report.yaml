@@ -13,13 +13,12 @@ name: Bug Report
 description: 🪲 Let's fight those pesky bugs 🪲
 labels: bug
 body:
-  - type: dropdown
+  - type: input
     id: Version
     attributes:
       label: Version
-      description: What version are you running?
-      options:
-        - 0.0.1
+      description: What version of the project are you running?
+      placeholder: 0.0.1
   - type: textarea
     id: Description
     attributes:
