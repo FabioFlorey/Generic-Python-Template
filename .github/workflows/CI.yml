@@ -34,7 +34,7 @@ jobs:
       uses: psf/black@stable
       with:
         options: "--check --verbose"
-        src: "./project"
+        src: "./"
         version: "~= 22.0"
     - name: Test with tox
       run: tox
