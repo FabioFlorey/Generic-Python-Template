@@ -1,0 +1,53 @@
+name: Bug Report
+description: 🪲 Let's fight those pesky bugs 🪲
+body:
+  type: input
+    id: Title
+    attributes:
+      label: Title
+      placeholder: Title
+  - type: input
+    id: Version
+    attributes:
+      label: Version
+      placeholder: 0.0.1
+  - type: textarea
+    id: Description
+    attributes:
+      label: Description
+      description: Write a short description and expand in the steps
+      placeholder: |
+        When I ...
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: Steps
+    attributes:
+      label: Steps to Reproduce
+      description: Describe how to reproduce the bug
+      placeholder: |
+        1. The first step is to what you did
+        2. You can add some code
+          ```python
+            # some code
+          ```
+        3. This description will be rendered as markdown
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: Environment
+    attributes:
+      label: Environment
+      description: Write some infos about the Environment
+      placeholder: |
+        |   |   |   |   |
+        |---|---|---|---|
+        |   |   |   |   |
+        |   |   |   |   |
+        |   |   |   |   |
+        |   |   |   |   | 
+      render: markdown
+    validations:
+      required: true
