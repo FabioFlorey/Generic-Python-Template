@@ -47,7 +47,7 @@ jobs:
         python -m setup sdist bdist_wheel
     - name: Upload artifact
       if: ${{ github.event.workflow_run.conclusion == 'success' }}
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: built-package
         path: dist/*
