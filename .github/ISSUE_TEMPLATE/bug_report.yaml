@@ -2,11 +2,13 @@ name: Bug Report
 description: 🪲 Let's fight those pesky bugs 🪲
 labels: bug
 body:
-  - type: input
+  - type: dropdown
     id: Version
     attributes:
       label: Version
-      placeholder: 0.0.1
+      description: What version are you running?
+      options:
+        - 0.0.1
   - type: textarea
     id: Description
     attributes:
@@ -51,7 +53,7 @@ body:
         1 + 1 = 4  
       render: markdown
     validations:
-      required: true
+      required: false
   - type: textarea
     id: Comments
     attributes:
@@ -74,3 +76,12 @@ body:
       render: python
     validations:
       required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: |
+        By submitting this issue, you agree to follow our [Code of Conduct](../../../docs/community/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
