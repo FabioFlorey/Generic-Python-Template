@@ -32,9 +32,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Expected Results
+    id: Expected_Results
     attributes:
-      label: Expected_Results
+      label: Expected Results
       description: Describe the expected results
       placeholder: |
         1 + 1 = 2  
