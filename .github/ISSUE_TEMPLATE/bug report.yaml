@@ -6,10 +6,14 @@ body:
       value: |
           body
   - type: input
-    id: search
+    id: OS
     attributes:
-      label: search you tried in the issue tracker
-      placeholder: ...
+      label: OS
+      description: Please, be as specific as possible
+      placeholder: |
+        -  Windows 10 Pro, version 21H1, build 19043
+        - macOS Big Sur, version 11.2.3, build 20D91
+        - Ubuntu 20.04 LTS, version Focal Fossa, build 5.4.0-72
     validations:
       required: true
   - type: textarea
@@ -17,22 +21,6 @@ body:
     attributes:
       label: describe your issue
       placeholder: 'I was doing ... I ran ... I expected ... I got ...'
-    validations:
-      required: true
-  - type: input
-    id: version
-    attributes:
-      label: pre-commit --version
-      placeholder: pre-commit x.x.x
-    validations:
-      required: true
-  - type: textarea
-    id: configuration
-    attributes:
-      label: .pre-commit-config.yaml
-      description: (auto-rendered as yaml, no need for backticks)
-      placeholder: 'repos: ...'
-      render: yaml
     validations:
       required: true
   - type: textarea
