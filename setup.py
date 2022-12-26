@@ -4,7 +4,7 @@
 =============================================================================
 Project
 =============================================================================
-Build and distribute the project.
+Build and install Python packages.
 
 :Authors: Fabio Craig Wimmer Florey <fabioflorey@icloud.com>
 :Version: 0.0.1
