@@ -1,7 +1,7 @@
 name: Bug Report
 description: 🪲 Let's fight those pesky bugs 🪲
 body:
-  type: input
+  - type: input
     id: Title
     attributes:
       label: Title
