@@ -33,8 +33,8 @@ docs/**                  linguist-documentation
 # Serialization Files
 # ---------------------------------------------------------------------------------------
 *.cfg                    text
-*.ini                    text
 *.in                     text
+*.ini                    text
 *.toml                   text
 *.yml                    text
 

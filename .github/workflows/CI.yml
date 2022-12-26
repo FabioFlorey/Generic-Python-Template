@@ -15,7 +15,7 @@ name: Continuous Integration
 on:
   push:
     branches:
-      ['master'] # I know it's main, but I don't want to trigger it for now! :P
+      ['main'] # I know it's main, but I don't want to trigger it for now! :P
 
 jobs:
   tests:
@@ -30,6 +30,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         python -m pip install -r tests/test-requirements.txt
+    - name: Lint the codebase with Black
+      uses: psf/black@stable
+      with:
+        options: "--check --verbose"
+        src: "./project"
+        version: "~= 22.0"
     - name: Test with tox
       run: tox
     - name: Upload report on CodeCoverage
@@ -38,4 +44,5 @@ jobs:
       with:
         file: ./tests/coverage.xml
         token: ${{ secrets.CODE_COVERAGE }}
+    
   
