@@ -25,14 +25,14 @@
 -->
 
 <div align="center">
-  <!-- <img alt="logo" src="./docs/img/logo.png"></img> -->
+  <!-- <img alt="logo" src="./docs/images/logo.png"></img> -->
   <h1>Python Project</h1>
   <h4>Short description of the project</h4>
 </div>
 
 ---
 <!--
-<img alt="hero" src="./docs/img/hero.png"></img>
+<img alt="hero" src="./docs/images/hero.png"></img>
 -->
 
 ## Table of Contents
@@ -150,9 +150,6 @@ Documentation, external links, resources and references.
 [PULL]: ../../compare
 [REQUIREMENTS]: /requirements.txt
 [SECURITY]: /.github/SECURITY.md
-[TAAG]: https://patorjk.com/software/taag/
-[TAAG OTHER]: http://www.patorjk.com/software/taag/#p=display&f=Big%20Money-ne&t=OTHER
-[TAAG PYTHON]: https://patorjk.com/software/taag/#p=display&f=Cybermedium&t=PROJECT
 
 <!------------------------------------  References --------------------------------------->
 [^1]: https://example.org |  “quote” | `code` | [book](https://example.org)
