@@ -15,7 +15,7 @@ name: Continuous Integration
 on:
   push:
     branches:
-      ['master'] # I know it's main, but I don't want to trigger it for now! :P
+      ['main'] # I know it's main, but I don't want to trigger it for now! :P
 
 jobs:
   tests:

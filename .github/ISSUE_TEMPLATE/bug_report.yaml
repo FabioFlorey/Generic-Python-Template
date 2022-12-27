@@ -9,8 +9,9 @@
 # :Version: 0.0.1
 # :License: MIT-0
 
+
 name: Bug Report
-description: 🪲 Let's fight those pesky bugs 🪲
+description: 🪲 Let's fight those pesky bugs
 labels: bug
 body:
   - type: input
