@@ -11,6 +11,5 @@ Automated tests for the project's build.
 :License: MIT-0
 '''
 
-
 def test_function():
     assert True
