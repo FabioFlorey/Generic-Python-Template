@@ -8,5 +8,19 @@
 # :Authors: Fabio Craig Wimmer Florey <fabioflorey@icloud.com>
 # :Version: 0.0.1
 # :License: MIT-0
-name: Documents
-description: Short description
+
+
+name: Documentation
+description: Improvements or addition to documentation
+labels: documentation
+body:
+  - type: textarea
+    id: Description
+    attributes:
+      label: Description
+      description: Write a short description and expand in the steps
+      placeholder: |
+        ...
+      render: markdown
+    validations:
+      required: true
