@@ -15,7 +15,7 @@ name: Continuous Integration
 on:
   push:
     branches:
-      ['main'] # I know it's main, but I don't want to trigger it for now! :P
+      ['master'] # I know it's main, but I don't want to trigger it for now! :P
 
 jobs:
   tests:
@@ -30,7 +30,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         python -m pip install -r tests/test-requirements.txt
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Check files using the black formatter
       uses: rickstaa/action-black@v1
       id: action_black
@@ -46,7 +46,7 @@ jobs:
         body: |
           There appear to be some python formatting errors in ${{ github.sha }}. This pull request
           uses the [psf/black](https://github.com/psf/black) formatter to fix these issues.
-        base: ${{ github.head_ref }} # Creates pull request onto pull request or commit branch
+        base: ${{ github.head_ref }}
         branch: actions/black
     - name: Test with tox
       run: tox
