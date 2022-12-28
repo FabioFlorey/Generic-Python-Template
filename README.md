@@ -15,14 +15,14 @@ Summary of the project, including its purpose and how to use it.
 
 
 <div align="center">
-  <!-- <img alt="logo" src="./docs/images/logo.png"></img> -->
+  <!-- <img alt="logo" src="./branding/logo.png"></img> -->
   <h1>Python Project</h1>
   <h4>Short description of the project</h4>
 </div>
 
 ---
 <!--
-<img alt="hero" src="./docs/images/hero.png"></img>
+<img alt="hero" src="./branding/hero.png"></img>
 -->
 
 ## Table of Contents
