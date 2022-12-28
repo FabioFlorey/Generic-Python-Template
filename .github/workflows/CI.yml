@@ -42,15 +42,15 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         title: "Format Python code with psf/black push"
-        commit-message: ":art: Format Python code with psf/black"
+        commit-message: "Code formatted with Black"
         body: |
-          There appear to be some python formatting errors in ${{ github.sha }}. This pull request
-          uses the [psf/black](https://github.com/psf/black) formatter to fix these issues.
+          There appear to be some python formatting errors in ${{ github.sha }}. 
+          This pull request uses the [psf/black](https://github.com/psf/black) formatter to fix these issues.
         base: ${{ github.head_ref }}
-        branch: actions/black
+        branch: CI
     - name: Test with tox
       run: tox
-    - name: Upload report on CodeCoverage
+    - name: Test with CodeCoverage
       if: success()
       uses: codecov/codecov-action@v3
       with:

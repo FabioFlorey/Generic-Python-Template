@@ -11,7 +11,7 @@
 
 
 name: Bug Report
-description: 🪲 Let's fight those pesky bugs
+description: 🪲 Something isn't working
 labels: bug
 body:
   - type: input
