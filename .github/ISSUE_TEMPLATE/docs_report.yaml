@@ -22,11 +22,7 @@ body:
       placeholder: |
         - Documents should be in RST format!
         - Should doumentation be automated?
-<<<<<<< HEAD
-        - This project needs more documentation!
-=======
         - This project needs more documentation
->>>>>>> 3a11c5dd7758fdef7227432d87f4fba48cbc250e
       render: markdown
     validations:
       required: true
