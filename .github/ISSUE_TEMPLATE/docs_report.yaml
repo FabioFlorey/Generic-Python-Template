@@ -8,5 +8,41 @@
 # :Authors: Fabio Craig Wimmer Florey <fabioflorey@icloud.com>
 # :Version: 0.0.1
 # :License: MIT-0
-name: Documents
-description: Short description
+
+
+name: Documentation
+description: 📚 Improvements or addition to documentation
+labels: documentation
+body:
+  - type: textarea
+    id: Abstract
+    attributes:
+      label: Abstract
+      description: Write your question or your proposal
+      placeholder: |
+        - Documents should be in RST format!
+        - Should doumentation be automated?
+        - This project needs more documentation!
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: Comments
+    attributes:
+      label: Additional Comments
+      description: Provide additional commentary
+      placeholder: |
+        This repo needs more emojis! 
+      render: markdown
+    validations:
+      required: false
+  - type: checkboxes
+    id: Terms
+    attributes:
+      label: Code of Conduct
+      description: |
+        By submitting this issue, you agree to follow our [Code of Conduct](../blob/main/docs/community/CODE_OF_CONDUCT.md)
+        ⚠️ **If you are reporting a security issue, read the [SECURITY](../blob/main/.github/SECURITY.md) file, thank you!**
+      options:
+        - label: I agree to follow this project's Code of Conduct and I read the SECURITY file
+          required: true
