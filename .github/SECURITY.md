@@ -35,4 +35,4 @@ Thank you for helping us keep our software and users safe!
 [DOCUMENTS]: ../docs/
 [FAQ]: ../docs/FAQ.md
 [ISSUE TRACKER]: ../../../issues
-[EMAIL]: mailto:fabioflorey@icloud.com?subject=New%20Security%20Issue%20(Project)&body=Hey%20Fabio%20👋%0D%0AI%20found%20an%20issue%20:%20
+[EMAIL]: mailto:fabioflorey@icloud.com?subject=New%20Security%20Issue%20(Project)&body=Hey%20Fabio%20👋%0D%0AI%0AI%20found%20a%20security%20issue%20:%20
